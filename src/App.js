@@ -17,8 +17,8 @@ function App() {
         <main  style={{overflowX : "hidden"}}>
           <Header />
           <LandingSection />
-          <ProjectsSection id='projects-section' />
-          <ContactMeSection  id='contactme-section' />
+          <ProjectsSection id='projects-section'/>
+          <ContactMeSection  id='contactme-section'/>
           <Footer />
           <Alert />
         </main>
