@@ -54,6 +54,7 @@ const ContactMeSection = () => {
       };
       setLoadText('Submit');
     } 
+    // eslint-disable-next-line
   }, [response]); 
 
   useEffect(() => {
