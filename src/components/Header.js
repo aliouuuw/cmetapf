@@ -37,6 +37,7 @@ const Header = () => {
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
     if (element) {
+      console.log(element);
       element.scrollIntoView({
         behavior:'smooth' ,
         block: "start",
@@ -95,8 +96,8 @@ const Header = () => {
           <nav>
             <HStack spacing={8}>
               {/* Add links to Projects and Contact me section */}
-              <a href="#projects" onClick={handleClick('projects')}>Projects</a>
-              <a href="#contact-me" onClick={handleClick('contactme')} >Contact Me</a>
+              <a href="cmetapf/#projects" onClick={handleClick('projects')}>Projects</a>
+              <a href="cmetapf/#contact-me" onClick={handleClick('contactme')} >Contact Me</a>
             </HStack>
           </nav>
         </HStack>
